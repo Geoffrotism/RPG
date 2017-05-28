@@ -5,7 +5,7 @@ using AssemblyCSharp;
 public class TypeMenu : MonoBehaviour {
 	public void Build(Button btn) {
         WorldController.Instance.buildMenu.BuildType = btn;
-        WorldController.Instance.currentMode = WorldController.Mode.Build;
+        WorldController.currentMode = WorldController.Mode.Build;
 	}
 
     public void SetBuildingButton(Button btn)
